@@ -73,6 +73,7 @@ fun FoodListScreen() {
 }
 
 @Composable
+// scrolling feature
 fun FoodItemCard(foodItem: FoodItem) {
     Card(
         modifier = Modifier
